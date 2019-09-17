@@ -1,0 +1,23 @@
+{
+  "name": "RoboSun",
+  "version": "1.0.0",
+  "description": "Test of the matrix labs + git hub -> raspberry pi connection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanota/RoboSun.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanota/RoboSun/issues"
+  },
+  "homepage": "https://github.com/jonathanota/RoboSun#readme",
+  "dependencies": {
+    "@matrix-io/matrix-lite": "^0.4.3"
+  }
+}

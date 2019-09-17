@@ -1,6 +1,9 @@
 const matrix = require("@matrix-io/matrix-lite")
+var mic = matrix.alsa.mic();
 
 let everloop = new Array(matrix.led.length);
+var inputStream = mic.getAudioStream();
+console.log(inputStream);
 
 let ledAdjust = 0.0;
 if (everloop.length == 35) {

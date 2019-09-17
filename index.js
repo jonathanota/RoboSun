@@ -9,7 +9,7 @@ if (everloop.length == 35) {
     ledAdjust = 1.01; // MATRIX Voice
 }
 
-let frequency = 0.375;
+let frequency = 1.0;
 let counter = 0.0;
 let tick = everloop.length - 1;
 

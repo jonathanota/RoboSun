@@ -16,7 +16,7 @@ let frequency = 1.0;
 let counter = 0.0;
 let tick = everloop.length - 1;
 
-matrix.led.set(blue);
+matrix.led.set("blue");
 
 // setInterval(()=>{
 //     // Create rainbow
